@@ -108,7 +108,7 @@ export default {
 }
 </script>
 
-<style lang="scss" module>
+<style lang="scss">
 @charset "UTF-8";
 $focused-color: #000;
 $blured-color: #bbb;
@@ -361,7 +361,7 @@ trix-toolbar {
     }
   }
   .trix-button.trix-active {
-    background: rgba($color $focused-color, $alpha: 0.5);
+    background: rgba($color: $focused-color, $alpha: 0.5);
     color: black;
   }
   .trix-button--icon {
